@@ -2,7 +2,7 @@
 #include <list>
 using namespace std;
 
-void ucitajString(list<string> &L)
+void ucitaj_string(list<string> &L)
 {
 	string str;
 
@@ -18,7 +18,7 @@ void ucitajString(list<string> &L)
 	}
 }
 
-void ucitajInt(list<int> &L)
+void ucitaj_int(list<int> &L)
 {
 	int x;
 
@@ -58,7 +58,7 @@ bool IsSorted(const list<char> &L)
 	return temp == L ? true : false;
 }
 
-void rastaviDodaj(list<string> &L)
+void rastavi_dodaj(list<string> &L)
 {
 	for (list<string>::iterator iter = L.begin(); iter != L.end(); ++iter)
 	{
@@ -70,7 +70,7 @@ void rastaviDodaj(list<string> &L)
 	}
 }
 
-void ispisiString(list<string> L)
+void ispisi_string(list<string> L)
 {
 	cout << "\n";
 	list<string>::iterator iter;
@@ -82,7 +82,7 @@ void ispisiString(list<string> L)
 	cout << "\n\n";
 }
 
-void ispisiInt(list<int> L)
+void ispisi_int(list<int> L)
 {
 	cout << "\n";
 	list<int>::iterator iter;
@@ -94,7 +94,7 @@ void ispisiInt(list<int> L)
 	cout << "\n\n";
 }
 
-void ispisiDouble(list<double> L)
+void ispisi_double(list<double> L)
 {
 	cout << "\n";
 	list<double>::iterator iter;
@@ -106,7 +106,7 @@ void ispisiDouble(list<double> L)
 	cout << "\n\n";
 }
 
-void ispisiChar(list<char> L)
+void ispisi_char(list<char> L)
 {
 	cout << "\n";
 	list<char>::iterator iter;
@@ -122,47 +122,47 @@ int main()
 {
 
 	cout << "Zadatak 1.\n===========================================" << endl;
-	list<string> listaString;
+	list<string> lista_string;
 
-	ucitajString(listaString);
-	ispisiString(listaString);
+	ucitaj_string(lista_string);
+	ispisi_string(lista_string);
 
 	cout << "Zadatak 2.\n===========================================" << endl;
-	list<int> listaInt;
+	list<int> lista_int;
 
-	ucitajInt(listaInt);
-	ispisiInt(listaInt);
+	ucitaj_int(lista_int);
+	ispisi_int(lista_int);
 
 	cout << "Zadatak 3.\n===========================================" << endl;
-	list<double> listaDouble;
+	list<double> lista_double;
 	double multiplikator;
 
-	listaDouble.push_back(1.5);
-	listaDouble.push_back(3.0);
-	listaDouble.push_back(4.5);
-	listaDouble.push_back(5.5);
-	listaDouble.push_back(7.3);
+	lista_double.push_back(1.5);
+	lista_double.push_back(3.0);
+	lista_double.push_back(4.5);
+	lista_double.push_back(5.5);
+	lista_double.push_back(7.3);
 
 	cout << "Unesite multiplikator: ";
 	cin >> multiplikator;
 
 	cout << "Lista prije mnozenja:";
-	ispisiDouble(listaDouble);
-	pomnozi(listaDouble, multiplikator);
+	ispisi_double(lista_double);
+	pomnozi(lista_double, multiplikator);
 	cout << "Lista nakon mnozenja:";
-	ispisiDouble(listaDouble);
+	ispisi_double(lista_double);
 
 	cout << "Zadatak 4.\n===========================================" << endl;
-	list<char> listaChar;
+	list<char> lista_char;
 
-	listaChar.push_front('e');
-	listaChar.push_front('d');
-	listaChar.push_front('c');
-	listaChar.push_front('b');
-	listaChar.push_front('a');
-	ispisiChar(listaChar);
+	lista_char.push_front('e');
+	lista_char.push_front('d');
+	lista_char.push_front('c');
+	lista_char.push_front('b');
+	lista_char.push_front('a');
+	ispisi_char(lista_char);
 
-	if (IsSorted(listaChar))
+	if (IsSorted(lista_char))
 	{
 		cout << "Lista je sortirana!\n\n";
 	}
@@ -172,11 +172,11 @@ int main()
 	}
 
 	cout << "Zadatak 5.\n===========================================" << endl;
-	list<string> listaStringV2;
+	list<string> lista_string_v2;
 
-	ucitajString(listaStringV2);
-	rastaviDodaj(listaStringV2);
-	ispisiString(listaStringV2);
+	ucitaj_string(lista_string_v2);
+	rastavi_dodaj(lista_string_v2);
+	ispisi_string(lista_string_v2);
 
 	system("pause");
 	return 0;
