@@ -1,5 +1,5 @@
 # Napredne tehnike programiranja
-### [Strukturno programiranje, funkcije i biblioteke](v1/v1.md)
+### [Strukturno programiranje, funkcije i biblioteke](v1/)
 ### [Pokazivači, Vezana lista](v2/v2.md)
 ### [Datoteke](v3/v3.md)
 ### [Osnovni koncepti OOP](v4/v4.md)
