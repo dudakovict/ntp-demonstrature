@@ -64,6 +64,6 @@ Nadopunite glavni program s funkcijom koja od korisnika traži unos koeficijenat
 
 Koeficijenti **a**, **b**, i **c** koje je korisnik unio trebaju biti postavljeni kao atributi klase. Nakon toga pomoću metode **calculate**, a interno i metode **diskriminanta**, vrši se izračun i u konačnici rezultati moraju biti u atributima **x1** i **x2** koje ispisujete kao rješenje.
 
-Formula za kvadrantu jednažbu: $x_{1,2}$ = $\frac{-b\pm\sqrt{b^2 - 4ac}}{2a}$ = $\frac{-b + \sqrt{D}}{2a}$
+Slika prikazuje kvadratnu jednadžbu. Diskriminanta je izraz ispod korijena.
 
-Diskriminanta je izraz ispod korijena: $b^2$ - $4ac$
+![Quadratic Equation](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV6KVC0dLauFCA6UqLlYevNv8F1EeiRX8gyA&usqp=CAU "Quadratic Equation")
