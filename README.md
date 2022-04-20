@@ -4,5 +4,5 @@
 - [Datoteke](v3/)
 - [Osnovni koncepti OOP](v4/)
 - [Specifikatori pristupa, princip apstrakcije i enkapsulacije](v5/)
-- [Konstruktor i destruktor, **this** pointer](v6/)
+- [Konstruktor i destruktor, ***this*** pointer](v6/)
 - [Preopterećenje operatora, prijatelji klase](v7/)
