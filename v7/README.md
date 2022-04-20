@@ -1,5 +1,5 @@
 # Preopterećenje operatora, prijatelji klase
-### Deklarirana je klasa Razlomak, kojom se definira objekt razlomka određen cjelobrojnim brojnikom i nazivnikom. Predložak zadatka nalazi se u [template.cpp](template.cpp) datoteci.
+Deklarirana je klasa **Razlomak**, kojom se definira objekt razlomka određen cjelobrojnim brojnikom i nazivnikom. Predložak zadatka nalazi se u [template.cpp](template.cpp) datoteci.
 ```c++
 class Razlomak
 {
@@ -15,7 +15,7 @@ public:
     }
 };
 ```
-### Preopteretite sljedeće operatore za klasu Razlomak
+Preopteretite sljedeće operatore za klasu **Razlomak**:
 ```c++
 // Ovaj operator zbraja dva razlomka
 Razlomak operator+(const Razlomak &);
@@ -36,4 +36,4 @@ Razlomak operator++();
 // Ovaj operator uspoređuje dali je prvi razlomak manji od drugog 
 bool operator<(const Razlomak &);
 ```
-### Napišite main funkciju u kojoj trebate demonstrirati rad svih operatera
+Napišite **main** funkciju u kojoj trebate demonstrirati rad svih operatera.

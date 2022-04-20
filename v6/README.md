@@ -1,5 +1,5 @@
 # Konstruktor i destruktor, **this** pointer
-### Definirajte klasu **Node** koja predstavlja element ili čvor dvostruko vezane liste, dakle, varijabla **key** sadrži neku vrijednost, pokazivači **prev** i **next** sadrže adresu prethodnog odnosno sljedećeg člana u listi.
+Definirajte klasu **Node** koja predstavlja element ili čvor dvostruko vezane liste, dakle, varijabla **key** sadrži neku vrijednost, pokazivači **prev** i **next** sadrže adresu prethodnog odnosno sljedećeg člana u listi.
 ```c++
 class Node
 {
@@ -11,7 +11,7 @@ public:
     Node(const Node &);
 };
 ```
-### Preopteretite sljedeće operatore za klasu Razlomak
+Definirajte sljedeće elemente za klasu **Node**:
 ```c++
 // Implementirajte defaultni konstruktor koji postavlja key na 0.0,
 // a pokazivače na NULL
@@ -26,9 +26,11 @@ Node(float val, Node *prev, Node *next);
 // Implementirajte kopirni konstruktor
 Node(const Node &);
 ```
-### Napravite barem 3 dinamički alocirana objekta klase **Node** i postavite im proizvoljne vrijednosti na atribut **key**, a za **prev** i **next** odaberite adrese postojećih objekata. Za svaki objekt ispišite sadržaj varijable **key**, **prev** i **next** koristeći pristup preko pokazivača. Na kraju dealocirajte objekte iz memorije.
+Napravite barem 3 dinamički alocirana objekta klase **Node** i postavite im proizvoljne vrijednosti na atribut **key**, a za **prev** i **next** odaberite adrese postojećih objekata. Za svaki objekt ispišite sadržaj varijable **key**, **prev** i **next** koristeći pristup preko pokazivača. Na kraju dealocirajte objekte iz memorije.
+
 ---
-### Definirajte klasu Krug koja se sastoji od radijusa (pokazivač na float).
+
+Definirajte klasu **Krug** koja se sastoji od **radijusa** (pokazivač na **float**).
 ```c++
 class Krug
 {
@@ -36,8 +38,7 @@ private:
     float *radius;
 };
 ```
-
-### Klasa treba sadržavati i sljedeće elemente
+Klasa treba sadržavati i sljedeće elemente:
 ```c++
 // Defaultni konstruktor koji dinamički alocira memoriju za radijus,
 // i postavlja vrijednost atributa na 0
@@ -65,4 +66,4 @@ float get_radius() { return *radius; };
 // Funkciju print koja ispisuje vrijednost radijusa na ekran
 void print();
 ```
-### U main funkciji treba demonstrirati rad svih elemenata klase. 
+U **main** funkciji treba demonstrirati rad svih elemenata klase. 

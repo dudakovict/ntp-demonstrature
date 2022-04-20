@@ -1,5 +1,5 @@
 # Strukturno programiranje, funkcije i biblioteke
-### Napišite datoteku [pravokutnik.h](pravokutnik.h) strukture pravokutnik. Kod mora biti takav da se donji klijentski program uspješno kompajlira:
+Napišite datoteku [pravokutnik.h](pravokutnik.h) strukture pravokutnik. Kod mora biti takav da se donji klijentski program uspješno kompajlira:
 ```c++
 #include <iostream>
 #include "pravokutnik.h"
