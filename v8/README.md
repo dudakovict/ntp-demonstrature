@@ -1,4 +1,4 @@
-# Nasljeđivanje, tipovi nasljeđivanja, višestruko nasljeđivanje
+# Odnosi između klasa
 Deklarirane su klase **Krug**, **Stozac** i **Kugla** koje predstavljaju geomotrijski lik kruga i geometrijska tijela stošca i kugle.
 ```c++
 class Krug

@@ -6,4 +6,5 @@
 - [v5 - Specifikatori pristupa, princip apstrakcije i enkapsulacije](v5/)
 - [v6 - Konstruktor i destruktor, ***this*** pointer](v6/)
 - [v7 - Preopterećenje operatora, prijatelji klase](v7/)
-- [v8 - Nasljeđivanje, tipovi nasljeđivanja, višestruko nasljeđivanje](v8/)
+- [v8 - Odnosi između klasa](v8/)
+- [v9 - Nasljeđivanje, tipovi nasljeđivanja, višestruko nasljeđivanje](v9/)
