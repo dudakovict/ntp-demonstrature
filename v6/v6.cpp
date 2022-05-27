@@ -12,7 +12,7 @@ public:
     Node(const Node &x);
 };
 
-Node::Node() : key(0), prev(NULL), next(NULL) {}
+Node::Node() : key(0), prev(nullptr), next(nullptr) {}
 
 Node::Node(float val, Node *prev, Node *next) : key(val), prev(prev), next(next) {}
 

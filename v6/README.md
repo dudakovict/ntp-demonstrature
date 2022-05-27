@@ -14,7 +14,7 @@ public:
 Definirajte sljedeće elemente za klasu **Node**:
 ```c++
 // Implementirajte defaultni konstruktor koji postavlja key na 0.0,
-// a pokazivače na NULL
+// a pokazivače na nullptr
 Node();
 ```
 ```c++ 
