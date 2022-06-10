@@ -10,3 +10,5 @@
 - [v9 - Nasljeđivanje, tipovi nasljeđivanja, višestruko nasljeđivanje](v9/)
 - [v10 - Virtualne metode, polimorfizam, apstraktne klase](v10/)
 - [v11 - Predlošci funkcija i klasa](v11/)
+- [v12 - Uvod u Standardnu biblioteku predložaka (STL)](v12/)
+- [v13 - Spremnici](v13/)
